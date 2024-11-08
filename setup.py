@@ -16,7 +16,7 @@ def get_version(filename):
     return version
 
 
-version = get_version(filename='gym_duckietown/__init__.py')
+version = get_version(filename='src/gym_duckietown/__init__.py')
 
 setup(
         name='gym_duckietown',
